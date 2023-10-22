@@ -1,0 +1,219 @@
+.navigation{
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    display: flex;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link a{
+    text-decoration: none;
+    transition: 0.5s;
+    color:whitesmoke;
+    width: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-link a:hover{
+    letter-spacing: 2px;
+    color: gold;
+}
+.skewed-header{
+    height: 400px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.header-background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+*{
+    margin: 0;
+}
+.skewed-header-wrapper{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    font-size: small;
+    justify-content: center;
+}
+.skewed-header-content{
+    justify-content: space-between;
+    width: 1000px;
+    display: flex;
+}
+.skewed-heading{
+    background-color: goldenrod;
+    width: 175px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.squares-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.squares{
+    width: 1350px;
+}
+.square-content img{
+    object-fit: cover;
+   
+
+   
+}
+.image-wrapper img{
+   
+}
+.square-text{
+    display: grid;
+    color: #cea135;
+    grid-template-columns: 1fr 1fr;
+}
+.image-wrapper{
+    
+}
+.footer-navbar{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    color: whitesmoke;
+    flex-direction: column;
+
+}
+.footer-link a{
+    width: 50px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+.footer-link a:hover{
+    letter-spacing: 2px;
+    color: gold;
+}
+.copyright{
+    height: 100%;
+    background-color: navy;
+}
+.contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+    width: 25px;
+}
+.contact:hover{
+    letter-spacing: 2px;
+    color: gold;
+}
+.hours{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    width: 50px;
+    color: goldenrod;
+    transition: 0.5s;
+}
+.hours:hover{
+    letter-spacing: 2px;
+    color: gold;
+}
+.logo-nav{
+    display: flex;
+
+    align-items: center;
+}
+.logo-nav > .nav-link{
+    justify-content: space-between;
+    align-items: center;
+    padding: 60 100 60 100;
+}
+.social-media a{
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+    font-size: medium;
+}
+.social-media a:hover{
+    color: blue;
+}
+.top-heading h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: beige;
+}
+.lower-heading h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+}
+.footer-logo{
+    filter: brightness(85%);
+}
+.footer-bar{
+    justify-content: space-between;
+    width: 300px;
+    display: flex;}
+body{
+  background-color: antiquewhite;
+}
+.square-text img{
+    height: 1043px;
+    display: flex;
+    width: 750px;
+}
+.page{
+    width: 100%;
+    height: 1043px;
+    justify-content: center;
+    display: flex;
+}
+@media (max-width: 615px)
+{
+    body{
+        width: 100%;
+    }
+
+    .skewed-header-content{
+        flex-direction: column;
+    }
+    .skewed-heading{
+        margin-left: 150px;
+    }
+    .navigation{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .nav-link{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 30px;
+        letter-spacing: 1.5px;
+    }
+    .page-content {
+        display: grid;
+    grid-template-columns: 1fr;   }
+        .square-text{
+            grid-template-columns: 1fr !important;
+        }
+        .page-content img{
+            width: 100%;
+            margin-top: 0 !important;
+        }
+        .header-background{
+            height: 300px;
+        }
+        .skewed-header{
+            height: 300px;
+        }
+}

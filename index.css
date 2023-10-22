@@ -1,0 +1,340 @@
+
+body{
+    font-family: 'Instrument Serif', serif;
+    margin:0px;
+    font-size: large;
+}
+.nav-bar{
+    height: 350px;
+    align-items: center;
+    position: relative;
+    background-color: navy;
+    color: whitesmoke;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+*{
+    margin: 0px;
+}
+.left-column{
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    width: 75px;
+}
+.contact{
+    margin-left: 10px;
+}
+.contact a{
+transition: 0.5s;
+font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+color: whitesmoke;
+}
+.contact a:hover{
+    letter-spacing: 2px;
+    color: gold;
+}
+.contact-icon{
+    width: 15px;
+    transition: 0.5s;
+}
+.contact-icon:hover{
+    color: gold;
+}
+.center-column{
+    width: 400px;
+    margin-top: 100px;
+    margin-right: 75px;
+}
+.nav-link a{
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    width:100px ;
+    color: whitesmoke;
+}
+    .nav-link a:hover{
+        letter-spacing: 2px;
+        color: gold;
+    }
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+.logo{
+    margin-left: 150px;
+    margin-right: 250px;
+    transition: 0.5s;
+    margin-bottom: 50px;
+    transform: scale(1.2);
+    filter: brightness(85%);
+}
+.logo:hover{
+    transform: scale(1.3);
+}
+.right-column{
+    align-items: center;
+    display: flex;
+    width: 100px;
+}
+.location-icon{
+    transition: 0.5s;
+    margin-right: 5px;
+}
+.location-icon:hover{
+    color: gold;
+}
+.location{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    transition: 0.5s;
+    width: 200px;
+    display: flex;
+}
+.location:hover{
+    letter-spacing: 2px;
+    color: gold;
+}
+.content-section{
+    background-image: url(entrance.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+padding: 100px;
+}
+.footer-navbar{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    color: whitesmoke;
+    flex-direction: column;
+
+}
+.footer-link a{
+    width: 50px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+.footer-link a:hover{
+    letter-spacing: 2px;
+    color: gold;
+}
+.copyright{
+    height: 100%;
+    background-color: navy;
+}
+.contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+    width: 25px;
+}
+.contact:hover{
+    letter-spacing: 2px;
+    color: gold;
+}
+.hours{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    width: 50px;
+    color: goldenrod;
+    transition: 0.5s;
+}
+.hours:hover{
+    letter-spacing: 2px;
+    color: gold;
+}
+.logo-nav{
+    display: flex;
+
+    align-items: center;
+}
+.logo-nav > .nav-link{
+    justify-content: space-between;
+    align-items: center;
+    padding: 60 100 60 100;
+}
+.social-media a{
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+    font-size: medium;
+}
+.social-media a:hover{
+    color: blue;
+}
+.top-heading h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: beige;
+}
+.lower-heading h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+}
+.footer-logo{
+    filter: brightness(85%);
+}
+.footer-bar{
+    justify-content: space-between;
+    width: 300px;
+    display: flex;
+}
+.summary-page{
+    width: 100%;
+    position: relative;
+   
+    display: flex;
+    justify-content: center;
+    height: 650px;
+background-repeat: no-repeat;
+background-size: cover;
+    background-position: center;
+    background-image: url(drink.jpg);
+}
+
+.summary-content{
+    position: absolute;
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    color: bisque;
+}
+.left-content{
+    width: 400px;
+    margin-left: -270px;
+}
+.right-content{
+    width: 350px;
+    margin-right: -250px;
+}
+.left-content p{
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+p{
+    transition: 0.5s;
+}
+p:hover{
+    letter-spacing: 2px;
+    color: #cea135;
+}
+.right-content p:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+.right-content p{
+    transition: 0.5s;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+ @media (max-width: 615px){
+    .nav-bar{
+        display: flex;
+height: 100%;
+justify-content: center;
+align-items: center;
+width: 100%;
+        flex-direction:column;
+    }
+    .logo{
+        margin-left: 130px;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-column{
+        order: 2;
+        width: 100%;
+        margin-left: -400px;
+        justify-content: center;
+    }
+    .center-column{
+        order: 1;
+        margin-left: 100px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .right-column{
+        order: 3;
+        margin-right: -400px;
+        margin-top: -55px;
+        justify-content: center;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .nav-link{
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+.content-section{
+    padding: 50px 10px;
+}
+.summary-page{
+    display: flex;
+    width: 100%;
+    height: 1400px;
+    
+ 
+   
+}
+.summary-content{
+    font-size: medium;
+    color: lightgray;
+    width: 100%;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-content{
+    flex-direction: column;
+width: 230px;
+height: 100%;
+transition: 0.5s;
+align-items: center;
+letter-spacing: 1.5px;
+margin-right: 20px;
+}
+.right-content{
+    flex-direction: column;
+    width: 200px;
+    letter-spacing: 1.5px;
+    margin-top: 150px;
+    align-items: center;
+}
+p:hover{
+  
+    color: #cea135;
+}
+p{
+    transition: 0.5s;
+    height: 400px;
+}
+.right-content p{
+    transition: 0.5s;
+}
+.right-content p:hover{
+    color: #cea135;
+
+}
+.map iframe{
+    width: 100%;
+}
+
+body{
+    width: 100% !important;
+}
+ }
